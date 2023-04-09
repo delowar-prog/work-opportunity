@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "categoryName":"Bank & Insurance",
+        "vacancy":300,
+        "icon":"../images/finance.png"
+    },
+    {
+        "id":2,
+        "categoryName":"Creative Design",
+        "vacancy":100,
+        "icon":"../images/design.png"
+    },
+    {
+        "id":3,
+        "categoryName":"Marketing",
+        "vacancy":250,
+        "icon":"../images/marketing.png"
+    },
+    {
+        "id":4,
+        "categoryName":"Government Job",
+        "vacancy":200,
+        "icon":"../images/gov-job.png"
+    }
+]
