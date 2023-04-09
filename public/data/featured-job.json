@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "logo": "https://example.com/logo1.png",
+      "companyName": "ABC Corp",
+      "designation": "Software Engineer",
+      "salary": "$80,000 - $100,000",
+      "location": "San Francisco, CA",
+      "workMode": "onsite"
+    },
+    {
+      "id": 2,
+      "logo": "https://example.com/logo2.png",
+      "companyName": "XYZ Inc",
+      "designation": "Product Manager",
+      "salary": "$90,000 - $120,000",
+      "location": "New York, NY",
+      "workMode": "onsite"
+    },
+    {
+      "id": 3,
+      "logo": "https://example.com/logo3.png",
+      "companyName": "PQR Ltd",
+      "designation": "Data Scientist",
+      "salary": "$100,000 - $130,000",
+      "location": "Chicago, IL",
+      "workMode": "remote"
+    },
+    {
+      "id": 4,
+      "logo": "https://example.com/logo4.png",
+      "companyName": "DEF Co",
+      "designation": "Marketing Coordinator",
+      "salary": "$50,000 - $70,000",
+      "location": "Los Angeles, CA",
+      "workMode": "onsite"
+    },
+    {
+      "id": 5,
+      "logo": "https://example.com/logo5.png",
+      "companyName": "GHI Enterprises",
+      "designation": "UX/UI Designer",
+      "salary": "$70,000 - $90,000",
+      "location": "Seattle, WA",
+      "workMode": "remote"
+    },
+    {
+      "id": 6,
+      "logo": "https://example.com/logo6.png",
+      "companyName": "MNO Group",
+      "designation": "Finance Manager",
+      "salary": "$120,000 - $150,000",
+      "location": "Boston, MA",
+      "workMode": "onsite"
+    },
+    {
+      "id": 7,
+      "logo": "https://example.com/logo7.png",
+      "companyName": "JKL Corp",
+      "designation": "Human Resources Specialist",
+      "salary": "$60,000 - $80,000",
+      "location": "Austin, TX",
+      "workMode": "remote"
+    },
+    {
+      "id": 8,
+      "logo": "https://example.com/logo8.png",
+      "companyName": "RST Inc",
+      "designation": "Operations Analyst",
+      "salary": "$70,000 - $90,000",
+      "location": "Denver, CO",
+      "workMode": "remote"
+    }
+  ]
+  

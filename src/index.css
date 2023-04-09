@@ -8,3 +8,6 @@
 .main-btn-style{
     @apply px-3 md:px-6 py-2 md:py-3 rounded border text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500;
 }
+.card-grid{
+    @apply grid grid-cols-2 md:grid-cols-4 gap-1 md:gap-6
+}
