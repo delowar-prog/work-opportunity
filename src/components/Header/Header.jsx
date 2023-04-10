@@ -11,7 +11,7 @@ const Header = () => {
                 <h1 className='text-lg md:text-2xl text-amber-500 font-bold'>WorkOpportunity</h1>
                 <nav>
                     <ul className='md:flex gap-7 text-gray-300 font-bold'>
-                        <li><Link to=''>Home</Link></li>
+                        <li><Link to='/'>Home</Link></li>
                         <li><Link to=''>Statistics</Link></li>
                         <li><Link to=''>Applied Jobs</Link></li>
                         <li><Link to=''>Blog</Link></li>

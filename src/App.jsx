@@ -3,6 +3,7 @@ import './App.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Layout from './components/Layout/Layout';
 import Home from './components/Home/Home';
+import JobDetails from './components/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
   {
@@ -12,8 +13,12 @@ const router = createBrowserRouter([
       {
         path: "/",
         element:<Home></Home>,
-        loader:()=>fetch('data/job-category.json')
+        loader:()=>fetch('data/featured-job.json'),
       },
+      {
+        path:"details/:jobId",
+        element:<JobDetails></JobDetails>
+      }
     ]
   }
 ]);

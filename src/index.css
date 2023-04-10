@@ -6,7 +6,7 @@
   @apply mx-3 md:mx-20 md:py-10; 
 }
 .main-btn-style{
-    @apply px-3 md:px-6 py-2 md:py-3 rounded border text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500;
+    @apply px-3 md:px-6 py-2 md:py-3 rounded border text-white bg-gradient-to-r from-indigo-400 to-violet-400 hover:from-indigo-600 hover:to-violet-700;
 }
 .card-grid{
     @apply grid grid-cols-2 md:grid-cols-4 gap-1 md:gap-6

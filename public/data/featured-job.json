@@ -1,75 +1,142 @@
 [
-    {
-      "id": 1,
-      "logo": "https://example.com/logo1.png",
-      "companyName": "ABC Corp",
-      "designation": "Software Engineer",
-      "salary": "$80,000 - $100,000",
-      "location": "San Francisco, CA",
-      "workMode": "onsite"
-    },
-    {
-      "id": 2,
-      "logo": "https://example.com/logo2.png",
-      "companyName": "XYZ Inc",
-      "designation": "Product Manager",
-      "salary": "$90,000 - $120,000",
-      "location": "New York, NY",
-      "workMode": "onsite"
-    },
-    {
-      "id": 3,
-      "logo": "https://example.com/logo3.png",
-      "companyName": "PQR Ltd",
-      "designation": "Data Scientist",
-      "salary": "$100,000 - $130,000",
-      "location": "Chicago, IL",
-      "workMode": "remote"
-    },
-    {
-      "id": 4,
-      "logo": "https://example.com/logo4.png",
-      "companyName": "DEF Co",
-      "designation": "Marketing Coordinator",
-      "salary": "$50,000 - $70,000",
-      "location": "Los Angeles, CA",
-      "workMode": "onsite"
-    },
-    {
-      "id": 5,
-      "logo": "https://example.com/logo5.png",
-      "companyName": "GHI Enterprises",
-      "designation": "UX/UI Designer",
-      "salary": "$70,000 - $90,000",
-      "location": "Seattle, WA",
-      "workMode": "remote"
-    },
-    {
-      "id": 6,
-      "logo": "https://example.com/logo6.png",
-      "companyName": "MNO Group",
-      "designation": "Finance Manager",
-      "salary": "$120,000 - $150,000",
-      "location": "Boston, MA",
-      "workMode": "onsite"
-    },
-    {
-      "id": 7,
-      "logo": "https://example.com/logo7.png",
-      "companyName": "JKL Corp",
-      "designation": "Human Resources Specialist",
-      "salary": "$60,000 - $80,000",
-      "location": "Austin, TX",
-      "workMode": "remote"
-    },
-    {
-      "id": 8,
-      "logo": "https://example.com/logo8.png",
-      "companyName": "RST Inc",
-      "designation": "Operations Analyst",
-      "salary": "$70,000 - $90,000",
-      "location": "Denver, CO",
-      "workMode": "remote"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "jobTitle": "Software Engineer",
+    "companyName": "XYZ Tech",
+    "companyLogo":"../images/company-logo/1.png",
+    "jobLocation": "San Francisco, CA",
+    "companyEmail": "careers@xyztech.com",
+    "salary": "Competitive",
+    "jobDescription": "We are seeking a skilled Software Engineer to join our dynamic team.",
+    "jobResponsibility": "Develop and maintain software applications, participate in code reviews, troubleshoot and fix bugs.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
+    "experience": "2-5 years of relevant experience.",
+    "jobType": "Remote",
+    "jobType1": "Full-time"
+  },
+  {
+    "id": 2,
+    "jobTitle": "Marketing Specialist",
+    "companyName": "ABC Corp",
+    "companyLogo":"../images/company-logo/2.png",
+    "jobLocation": "New York, NY",
+    "companyEmail": "careers@abccorp.com",
+    "salary": "Negotiable",
+    "jobDescription": "We are looking for a Marketing Specialist to drive our marketing initiatives and campaigns.",
+    "jobResponsibility": "Create and implement marketing strategies, manage social media accounts, analyze data, and collaborate with cross-functional teams.",
+    "educationalRequirements": "Bachelor's degree in Marketing or related field.",
+    "experience": "3-5 years of marketing experience.",
+    "jobType": "Onsite",
+    "jobType1": "Part-time"
+  },
+  {
+    "id": 3,
+    "jobTitle": "Graphic Designer",
+    "companyName": "Design Solutions",
+    "companyLogo":"../images/company-logo/3.png",
+    "jobLocation": "Los Angeles, CA",
+    "companyEmail": "careers@designsolutions.com",
+    "salary": "45,000 - 55,000 USD",
+    "jobDescription": "We are seeking a creative and experienced Graphic Designer to join our team.",
+    "jobResponsibility": "Design marketing collateral, create visual assets, collaborate with clients, and maintain brand consistency.",
+    "educationalRequirements": "Bachelor's degree in Graphic Design or related field.",
+    "experience": "2-4 years of graphic design experience.",
+    "jobType": "Remote",
+    "jobType1": "Part-time"
+  },
+  {
+    "id": 4,
+    "jobTitle": "Financial Analyst",
+    "companyName": "Financial Services Inc.",
+    "companyLogo":"../images/company-logo/4.png",
+    "jobLocation": "Chicago, IL",
+    "companyEmail": "careers@fsinc.com",
+    "salary": "60,000 - 70,000 USD",
+    "jobDescription": "We are looking for a detail-oriented Financial Analyst to analyze financial data and provide insights.",
+    "jobResponsibility": "Conduct financial analysis, prepare financial reports, monitor financial performance, and provide recommendations.",
+    "educationalRequirements": "Bachelor's degree in Finance or related field.",
+    "experience": "3-5 years of financial analysis experience.",
+    "jobType": "Onsite",
+    "jobType1": "Full-time"
+  },
+  {
+    "id": 5,
+    "jobTitle": "Nurse Practitioner",
+    "companyName": "Healthcare Clinic",
+    "companyLogo":"../images/company-logo/5.png",
+    "jobLocation": "Boston, MA",
+    "companyEmail": "careers@healthcareclinic.com",
+    "salary": "90,000 - 100,000 USD",
+    "jobDescription": "We are seeking a compassionate Nurse Practitioner to provide primary care to patients.",
+    "jobResponsibility": "Resolve customer issues, provide product information...",
+    "educationalRequirements": "High school diploma or equivalent",
+    "experience": "1+ years of customer service experience",
+    "jobType": "Onsite",
+    "jobType1": "Full-time"
+  },
+  {
+    "id": 6,
+    "jobTitle": "UI/UX Designer",
+    "companyName": "Tech Solutions",
+    "companyLogo":"../images/company-logo/6.png",
+    "jobLocation": "Seattle, WA",
+    "companyEmail": "jobs@techsolutions.com",
+    "salary": "Competitive",
+    "jobDescription": "We are looking for a talented UI/UX Designer to create intuitive and user-friendly interfaces...",
+    "jobResponsibility": "Design wireframes, prototypes, and user flows...",
+    "educationalRequirements": "Bachelor's degree in Design or related field",
+    "experience": "3+ years of experience in UI/UX design",
+    "jobType": "Remote or Onsite",
+    "jobType1": "Full-time"
+  },
+  {
+    "id": 7,
+    "jobTitle": "Customer Service Representative",
+    "companyName": "Service Solutions",
+    "companyLogo":"../images/company-logo/7.png",
+    "jobLocation": "Miami, FL",
+    "companyEmail": "careers@servicesolutions.com",
+    "salary": "$35,000 - $40,000 per year",
+    "jobDescription": "We are seeking a friendly and customer-focused Customer Service Representative to assist with inquiries...",
+    "jobResponsibility": "Resolve customer issues, provide product information...",
+    "educationalRequirements": "High school diploma or equivalent",
+    "experience": "1+ years of customer service experience",
+    "jobType": "Onsite",
+    "jobType1": "Full-time"
+  },
+  {
+    "id": 8,
+    "jobTitle": "Sales Manager",
+    "companyName": "Sales Solutions",
+    "companyLogo":"../images/company-logo/8.png",
+    "jobLocation": "Dallas, TX",
+    "companyEmail": "jobs@salessolutions.com",
+    "salary": "Base salary + commission",
+    "jobDescription": "We are looking for an experienced Sales Manager to lead our sales team...",
+    "jobResponsibility": "Develop and implement sales strategies, coach and mentor sales team...",
+    "educationalRequirements": "Bachelor's degree in Business or related field",
+    "experience": "5+ years of experience in sales",
+    "jobType": "Remote",
+    "jobType1": "Full-time"
+  },
+  {
+    "id": 9,
+    "jobTitle": "Nurse Practitioner",
+    "companyName": "Healthcare Clinic",
+    "companyLogo":"../images/company-logo/9.png",
+    "jobLocation": "Boston, MA",
+    "companyEmail": "jobs@healthcareclinic.com",
+    "salary": "Salary negotiable",
+    "jobDescription": "We are seeking a skilled Nurse Practitioner to provide quality healthcare services...",
+    "jobResponsibility": "Assess, diagnose, and treat patients, provide patient education...",
+    "educationalRequirements": "Master's degree in Nursing, valid Nurse Practitioner license",
+    "experience": "3+ years of experience as a Nurse Practitioner",
+    "jobType": "Onsite",
+    "jobType1": "Part-time"
+  }
+]
+
+
+
+    
+
