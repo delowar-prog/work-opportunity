@@ -13,6 +13,11 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setCategories(data))
     }, [])
+
+    const handleLoadAll=()=>{
+        setFeatureds(featuredJobs);
+        document.getElementById('seeAllBtn').classList.add('hidden');
+    }
     return (
 
         <div className='home-container'>
@@ -37,6 +42,9 @@ const Home = () => {
                         {
                             featureds.map(fitem => <FeaturedJobs fitem={fitem} key={fitem.id}></FeaturedJobs>)
                         }
+                    </div>
+                    <div className='seeall mt-5 w-[20%] mx-auto text-center'>
+                    <button id="seeAllBtn" className='main-btn-style' onClick={handleLoadAll}>Show All</button>
                     </div>
                 </div>
             </div>
