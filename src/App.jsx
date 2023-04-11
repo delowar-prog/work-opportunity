@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import allAppliedJobs from './Loader/jobsLoader';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import Statistics from './components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
         path: "/applied-jobs",
         element: <AppliedJobs></AppliedJobs>,
         loader: allAppliedJobs
+      },
+      {
+        path:"/statistics",
+        element:<Statistics></Statistics>
       }
     ]
   }
