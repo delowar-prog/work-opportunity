@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id":1,
     "jobTitle": "Software Engineer",
     "companyName": "XYZ Tech",
     "companyLogo":"../images/company-logo/1.png",
@@ -15,7 +15,7 @@
     "jobType1": "Full-time"
   },
   {
-    "id": 2,
+    "id":2,
     "jobTitle": "Marketing Specialist",
     "companyName": "ABC Corp",
     "companyLogo":"../images/company-logo/2.png",
@@ -30,7 +30,7 @@
     "jobType1": "Part-time"
   },
   {
-    "id": 3,
+    "id":3,
     "jobTitle": "Graphic Designer",
     "companyName": "Design Solutions",
     "companyLogo":"../images/company-logo/3.png",
@@ -45,7 +45,7 @@
     "jobType1": "Part-time"
   },
   {
-    "id": 4,
+    "id":4,
     "jobTitle": "Financial Analyst",
     "companyName": "Financial Services Inc.",
     "companyLogo":"../images/company-logo/4.png",
@@ -60,7 +60,7 @@
     "jobType1": "Full-time"
   },
   {
-    "id": 5,
+    "id":5,
     "jobTitle": "Nurse Practitioner",
     "companyName": "Healthcare Clinic",
     "companyLogo":"../images/company-logo/5.png",
@@ -75,7 +75,7 @@
     "jobType1": "Full-time"
   },
   {
-    "id": 6,
+    "id":6,
     "jobTitle": "UI/UX Designer",
     "companyName": "Tech Solutions",
     "companyLogo":"../images/company-logo/6.png",
@@ -90,7 +90,7 @@
     "jobType1": "Full-time"
   },
   {
-    "id": 7,
+    "id":7,
     "jobTitle": "Customer Service Representative",
     "companyName": "Service Solutions",
     "companyLogo":"../images/company-logo/7.png",
@@ -105,7 +105,7 @@
     "jobType1": "Full-time"
   },
   {
-    "id": 8,
+    "id":8,
     "jobTitle": "Sales Manager",
     "companyName": "Sales Solutions",
     "companyLogo":"../images/company-logo/8.png",
@@ -120,7 +120,7 @@
     "jobType1": "Full-time"
   },
   {
-    "id": 9,
+    "id":9,
     "jobTitle": "Nurse Practitioner",
     "companyName": "Healthcare Clinic",
     "companyLogo":"../images/company-logo/9.png",
