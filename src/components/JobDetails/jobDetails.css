@@ -1,0 +1,11 @@
+.job-details{
+    display: grid;
+    grid-template-columns: 20fr 8fr;
+    gap:10px;
+}
+.job-description p{
+    margin: 20px auto;
+}
+.contact-information p{
+    margin: 8px auto;
+}

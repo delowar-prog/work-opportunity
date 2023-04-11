@@ -11,7 +11,7 @@ const FeaturedJobs = ({fitem}) => {
       <p className='text-lg my-3'>{companyName}</p>
       <button className='py-2 px-4 border-2 rounded border-blue-300 text-blue-400 font-bold'>{jobType}</button> <button className='py-2 px-4 border-2 rounded border-blue-300 text-blue-400 font-bold'>{jobType1}</button>
       <p className='my-5 text-lg'><FontAwesomeIcon icon={faLocationDot} /> {jobLocation} <span className='ml-5'><FontAwesomeIcon icon={faDollarSign} /> Salery: {salary}</span></p>
-      <button className='main-btn-style'><Link to="details/`${id}`">View Details</Link></button>
+      <button className='main-btn-style'><Link to={`/${id}`}>View Details</Link></button>
     </div> 
   )
 }
