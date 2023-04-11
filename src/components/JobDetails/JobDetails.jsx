@@ -3,7 +3,8 @@ import { useParams } from 'react-router-dom'
 import './jobDetails.css'
 import { faLocationDot, faDollarSign, faBookBookmark, faMessage } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { addToDb } from '../../utilities/fakedb'
+import { addToDb, getStorageData } from '../../utilities/fakedb'
+import { toast } from 'react-toastify'
 
 const JobDetails = () => {
     const {jobId}=useParams();
@@ -18,7 +19,14 @@ const JobDetails = () => {
     },[])
   //Add to localstorage
   const handleApply=(id)=>{
-    addToDb(id)
+    const getDbData=getStorageData()
+    if(getDbData[id]){
+      toast("Sorry you have already applied")
+    }else{
+      addToDb(id)
+      toast("Applied Successfully")
+    }
+    
   }
     // const singleJob=loadedData.find(job=>job.id==jobId)
 
