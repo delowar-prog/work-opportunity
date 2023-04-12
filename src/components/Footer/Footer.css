@@ -1,0 +1,11 @@
+.footer-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    gap:20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-section{
+        grid-template-columns: 1fr 1fr;
+    }
+}
